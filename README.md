@@ -1,2 +1,5 @@
 # linux_shell
-linux_shells
+
+## script
+
+### 1.onekey install webmin

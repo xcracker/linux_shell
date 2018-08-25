@@ -8,7 +8,7 @@
  * Description   : onekey install webmin
  * *******************************************************
 !
-wget https://raw.githubusercontent.com/xcacker/linux_shell/master/webmin/webmin.repo -O /etc/yum.repos.d/webmin.repo
+curl https://raw.githubusercontent.com/xcracker/linux_shell/master/webmin/webmin.repo > /etc/yum.repos.d/webmin.repo
 wget http://www.webmin.com/jcameron-key.asc
 rpm --import jcameron-key.asc
 yum -y install webmin
