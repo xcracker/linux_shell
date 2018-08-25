@@ -12,11 +12,3 @@ curl https://raw.githubusercontent.com/xcracker/linux_shell/master/webmin/webmin
 wget http://www.webmin.com/jcameron-key.asc
 rpm --import jcameron-key.asc
 yum -y install webmin
-
-echo '**********************************************************'
-echo '* Author        : xcracker "'
-echo '* Email         : wsxiaoyao@live.com"'
-echo '* Last modified : 2018-08-26 00:52:04"'
-echo '* Filename      : install_webmin.sh"'
-echo '* Description   : onekey install webmin"'
-echo '* *******************************************************'
