@@ -1,4 +1,3 @@
-[root@localhost nginx-1.6.0]# vim /etc/rc.d/init.d/nginx
 #!/bin/bash
 # nginx - this script starts and stops the nginx daemon
 # chkconfig: - 85 15
@@ -109,8 +108,3 @@ condrestart|try-restart)
 echo $"Usage: $0 {start|stop|status|restart|condrestart|try-restart|reload|force-reload|configtest}"
 exit 2
 esac
-[root@localhost nginx-1.6.0]# chmod 755 /etc/rc.d/init.d/nginx 
-[root@localhost nginx-1.6.0]# /etc/rc.d/init.d/nginx start
-Reloading systemd:                                         [  确定  ]
-Starting nginx (via systemctl):                            [  确定  ]
-[root@localhost nginx-1.6.0]# chkconfig nginx on
